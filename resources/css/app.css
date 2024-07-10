@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* resources/css/app.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&display=swap');
+
+

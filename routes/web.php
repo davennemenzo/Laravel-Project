@@ -11,6 +11,10 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/Test', function () {
-    return Inertia::render('Test');
+Route::get('/LogIn', function () {
+    return Inertia::render('Login');
+});
+
+Route::get('/SignUp', function () {
+    return Inertia::render('Signup');
 });

@@ -8,9 +8,11 @@
           <a href="#" class="text-black hover:text-gray-600 font-bold">Home</a>
           <a href="#" class="text-black hover:text-gray-600 font-bold">Services</a>
           <a href="#" class="text-black hover:text-gray-600 font-bold">Contact</a>
-          
-  
-          
+
+          <Link href="/LogIn" class="text-black hover:text-gray-600 font-bold">Log IN</Link>
+          <Link href="/SignUp" class="text-black hover:text-gray-600 font-bold">Sign Up</Link>
+
+
         </div>
         <div class="md:hidden">
           <button @click="toggleMenu" class="text-gray-800 hover:text-gray-600 focus:outline-none">
@@ -20,9 +22,10 @@
           </button>
         </div>
       </div>
-      
+
     </nav>
   </template>
-  
+
   <script setup>
+  import { Link } from '@inertiajs/vue3';
   </script>
